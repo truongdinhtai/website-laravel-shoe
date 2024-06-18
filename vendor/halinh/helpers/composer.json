@@ -1,0 +1,29 @@
+{
+    "name": "halinh/helpers",
+    "description": "Build helpers function",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Halinh\\Helpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "phudev",
+            "email": "codethue94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Halinh\\Helpers\\HaLinhServiceProvider"
+            ],
+            "aliases": {
+                "HalinhHelpers": "Halinh\\Helpers\\Facade"
+            }
+        }
+    }
+}
